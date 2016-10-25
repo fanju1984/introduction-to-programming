@@ -7,13 +7,6 @@
 #include<stdio.h>
 
 int main () {
-	//int n = 2;
-	int a[];
-	a[0] = 1;
-	a[1]= 2;
-
-	printf("%d\n", a[0]);
-
 	int rooms[8];
 	int classes[4];
 	printf("Input capacities of the 8 rooms (separated by space): ");
