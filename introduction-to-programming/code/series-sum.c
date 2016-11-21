@@ -5,7 +5,7 @@
  *      Author: fanj
  */
 
-/*
+
 #include<stdio.h>
 
 static int MAX_DIGIT = 16;
@@ -28,4 +28,3 @@ int main () {
 	printf("%lld", sum);
 	return 0;
 }
-*/

@@ -4,7 +4,7 @@
  *  Created on: 20 Nov 2016
  *      Author: fanj
  */
-/*
+
 #include<stdio.h>
 static int MAX_SIZE = 65536;
 int main () {
@@ -27,5 +27,3 @@ int main () {
 	if (printed == 0) printf("NO");
 	return 0;
 }
-
-*/

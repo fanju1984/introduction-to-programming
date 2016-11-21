@@ -6,7 +6,7 @@
  */
 
 #include<stdio.h>
-/*
+
 int main () {
 	double x, y;
 	int status = 1;
@@ -31,4 +31,3 @@ int main () {
 	}
 	return 0;
 }
-*/

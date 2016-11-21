@@ -4,7 +4,7 @@
  *  Created on: 20 Nov 2016
  *      Author: fanj
  */
-/*
+
 #include<stdio.h>
 
 int main() {
@@ -28,4 +28,3 @@ int main() {
 			);
 	return 0;
 }
-*/
