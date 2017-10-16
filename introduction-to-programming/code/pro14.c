@@ -4,7 +4,7 @@
  *  Created on: 12 Oct 2017
  *      Author: fanj
  */
-/*
+
 #include<stdio.h>
 
 int main () {
@@ -18,4 +18,3 @@ int main () {
 	printf ("%d", n);
 	return 0;
 }
-*/

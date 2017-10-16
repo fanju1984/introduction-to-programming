@@ -4,7 +4,7 @@
  *  Created on: 12 Oct 2017
  *      Author: fanj
  */
-/*
+
 #include<stdio.h>
 
 int main () {
@@ -34,4 +34,3 @@ int main () {
 	printf ("%d %d", h_count, l_count);
 	return 0;
 }
-*/
