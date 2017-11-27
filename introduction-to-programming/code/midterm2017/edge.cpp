@@ -4,7 +4,7 @@
  *  Created on: 13 Nov 2017
  *      Author: fanj
  */
-/*
+
 #include<iostream>
 using namespace std;
 
@@ -25,4 +25,3 @@ int main () {
 	cout << sum;
 	return 0;
 }
-*/
