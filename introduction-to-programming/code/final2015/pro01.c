@@ -4,7 +4,7 @@
  *  Created on: 22 Dec 2016
  *      Author: fanj
  */
-/*
+
 #include<stdio.h>
 
 int main() {
@@ -27,4 +27,3 @@ int main() {
 	printf("%d %d %d", max, min, avg_int);
 
 }
-*/
