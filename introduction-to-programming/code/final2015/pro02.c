@@ -1,10 +1,12 @@
 /*
- * pro02.c
+ * pro02_1.c
  *
  *  Created on: 22 Dec 2016
  *      Author: fanj
  */
 /*
+ *
+
 #include<stdio.h>
 #include<string.h>
 
@@ -13,22 +15,15 @@ int main() {
 	char *prefix1 = "born in ";
 	char *prefix2 = "My major is ";
 	gets(str);
-	char *start = NULL;
-	for (start = str; *start != '\0'; start ++) {
-		if (strncmp(start, prefix1, strlen(prefix1)) == 0) { // first match
-			for (int i = 0; i < 4; i ++) {
-				printf("%c", *(start+strlen(prefix1)+i));
-			}
-			printf(", ");
-		} else if (strncmp(start, prefix2, strlen(prefix2)) == 0) {
-			for (char *p = start+strlen(prefix2); *p != '.'; p ++) {
-				printf("%c", *p);
-			}
-			printf("\n");
-			break;
-		}
+	// strstr: find substring matches
+	char *p = strstr(str, prefix1);
+	for (p = p + strlen(prefix1); *p != ','; p++) {
+		printf("%c", *p);
 	}
-	return 0;
-
+	printf(", ");
+	char *q = strstr(str, prefix2);
+	for (q = q + strlen(prefix2); *q != '.'; q ++) {
+		printf("%c", *q);
+	}
 }
 */
