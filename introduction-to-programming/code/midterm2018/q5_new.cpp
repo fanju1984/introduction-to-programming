@@ -88,7 +88,7 @@ int main () {
 						rst[i-1] += 10;
 					}
 				}
-				else {
+				else { // 情况与上面结果为正数类似。
 					int shift = 0; 
 					for (int k = i - 1; k >= 0; k --) {
 						if (rst[k] == 0) continue;
@@ -103,12 +103,12 @@ int main () {
 						rst[i-1] -= 10;
 					}
 				}
-				if (skip_zero == 1) {
+				if (skip_zero == 1) { // 根据需要更新skip_zero标志位
 					if (rst[i] != 0) {
 						skip_zero =0;
 						cout << abs(rst[i]);
 					}
-				} else {
+				} else { // 输出更新后的值
 					cout << abs(rst[i]);
 				}
 			}
