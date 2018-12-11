@@ -43,7 +43,8 @@ int main () {
 	 * 任务4示例
 	 */
 	int *reco_index_2; //动态数组空间
-	int n =  Select("Open >= 50.15 AND Date == 2016-1-12", reco_index_2);
+	int n;
+	reco_index_2 =  Select("Open >= 50.15 AND Date == 2016-1-12", n);
 	fp = fopen("out/selectRes.txt", "w");
 	OutputToFile(reco_index_2, n, fp);
 	free(reco_index_2);

@@ -9,64 +9,64 @@
 
 struct Record {
 	/**
-	 * ÇëÌî³äÄãµÄ½á¹¹Ìå¶¨Òå
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä½á¹¹ï¿½å¶¨ï¿½ï¿½
 	 */
 };
 
 /**
- * ÈÎÎñ1£º¶ÁÈëÊý¾Ý
- * ²ÎÊý¶¨Òå£º
- *   filename±íÊ¾ÎÄ¼þÃû
+ * ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *   filenameï¿½ï¿½Ê¾ï¿½Ä¼ï¿½ï¿½ï¿½
  */
 int LoadStockData(char *filename);
 
 /**
- * ÈÎÎñ2£ºÌáÈ¡Êý¾Ý
- * ²ÎÊý¶¨Òå£º
- *   1) index ±íÊ¾Êý¾Ý¼ÇÂ¼µÄ±àºÅ
- *   2) name ±íÊ¾×Ö¶ÎÃû£¬Èç³É½»Á¿ "Volume"
- *   3) pvalue ÊÇÒ»¸ö¿ÕÀàÐÍÖ¸ÕëµØÖ·£¬ËüÖ¸Ïò²éÑ¯µ½µÄ¾ßÌå×Ö¶ÎÖµ
+ * ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *   1) index ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ý¼ï¿½Â¼ï¿½Ä±ï¿½ï¿½
+ *   2) name ï¿½ï¿½Ê¾ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ "Volume"
+ *   3) pvalue ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½Öµ
  */
 int GetFieldVal(int index, const char *name, void *pvalue);
 
 /**
- * ÈÎÎñ3£º¼ÇÂ¼ÅÅÐò
- * ²ÎÊý¶¨Òå£º
- *   1) reco_indexÊý×é´ú±íËùÓÐÐëÅÅÐòµÄÊý¾Ý¼ÇÂ¼µÄ±àºÅ£¬
- *       ÔËÐÐ½áÊøºó£¬ÆäÖÐÊÇÒÑ°´ÒªÇóÅÅ¹ýÐòµÄË÷ÒýºÅ
- *   2) n ±íÊ¾¼ÇÂ¼µÄÊýÁ¿
- *   3) order_byÖ¸ÏòÅÅÐòµÄ×¼Ôò£¬ËüÓÉÈô¸É¶ººÅ·Ö¸ôµÄ×Ö¶ÎÃû×é³É
+ * ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *   1) reco_indexï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¼ï¿½Â¼ï¿½Ä±ï¿½Å£ï¿½
+ *       ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½Òªï¿½ï¿½ï¿½Å¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ *   2) n ï¿½ï¿½Ê¾ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ *   3) order_byÖ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¶ï¿½ï¿½Å·Ö¸ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 void SortRecords(int reco_index[], int n, const char *order_by);
 
 /**
- * ÈÎÎñ4£º²éÑ¯ÀàÈÎÎñ
- * ²ÎÊý¶¨Òå£º
- *   1) condition Îª²éÑ¯µÄÌõ¼þ±í´ïÊ½
- *   2) reco_index ´æ·ÅÊý¾Ý±àºÅµÄÊý×é£¬Ó¦¿¼ÂÇ½«Ëü´´½¨ÎªÒ»¸ö¶¯Ì¬Êý×é¿Õ¼ä£¬
- *      ÒòÎª²éÑ¯½á¹ûµÄ¾ßÌåÊýÄ¿ÊÂÏÈ²»¿ÉÔ¤Öª
+ * ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *   1) condition Îªï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
+ *   2) reco_index ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý±ï¿½Åµï¿½ï¿½ï¿½ï¿½é£¬Ó¦ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÒ»ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Õ¼ä£¬
+ *      ï¿½ï¿½Îªï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½Ô¤Öª
  */
-int Select(const char *condition, int reco_index[]);
+int* Select(const char *condition, int& n);
 
 /**
- * ÈÎÎñ5£º·Ö×éÍ³¼Æ
- * ²ÎÊý¶¨Òå£º
- *   1) reco_index ºÍ n µÄº¬ÒåÓëÇ°ÃæµÚËÄÏîÈÎÎñÖÐÏàÍ¬
- *   2) cmd ±íÊ¾Í³¼ÆÖ¸Áî£¬Èç"COUNT(*)"
- *   3)	group_by Îª·Ö×éÒÀ¾Ý£¬Èç"Date"
+ * ï¿½ï¿½ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í³ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *   1) reco_index ï¿½ï¿½ n ï¿½Äºï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬
+ *   2) cmd ï¿½ï¿½Ê¾Í³ï¿½ï¿½Ö¸ï¿½î£¬ï¿½ï¿½"COUNT(*)"
+ *   3)	group_by Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½"Date"
  *
  */
 int Aggregate (int reco_index[], int n, const char *cmd, const char *group_by);
 
 /**
- * ÈÎÎñ6£ºÊä³öµ½ÎÄ¼þ
- * ²ÎÊý¶¨Òå£º
- *    1) reco_indexµÄº¬ÒåÓëÇ°Ãæ¶¨ÒåÖÐÏàÍ¬
- *    2) pf±íÊ¾Ò»¸öÎÄ¼þÖ¸Õë
- * ¶ÔÓÚÊä³öµÄÒªÇóÈçÏÂ£º
- *    1)	µÚ1ÐÐÎª±êÌâÐÐ£¬°´ÕÕ¶ÁÈëÎÄ¼þµÄ±êÌâË³Ðò£»
- *    2)	´ÓµÚ2ÐÐÆð£¬°´±êÌâÐÐµÄ×Ö¶ÎË³Ðò£¬Êä³öÏàÓ¦µÄÖµ£»
- *    3)	Ð¡Êý±£Áô2Î»£»
+ * ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
+ *    1) reco_indexï¿½Äºï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½æ¶¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬
+ *    2) pfï¿½ï¿½Ê¾Ò»ï¿½ï¿½ï¿½Ä¼ï¿½Ö¸ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½
+ *    1)	ï¿½ï¿½1ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Õ¶ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ä±ï¿½ï¿½ï¿½Ë³ï¿½ï¿½
+ *    2)	ï¿½Óµï¿½2ï¿½ï¿½ï¿½ð£¬°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½Ö¶ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½Öµï¿½ï¿½
+ *    3)	Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2Î»ï¿½ï¿½
  *
  */
 void OutputToFile (int reco_index[], int n, FILE *pf);

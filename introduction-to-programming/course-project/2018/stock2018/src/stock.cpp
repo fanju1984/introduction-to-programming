@@ -1,6 +1,6 @@
 #include "stock.h"
 
-Record *ptr; // Ö¸Ïò¶¯Ì¬½á¹¹ÌåÊý×éµÄÖ¸Õë
+Record *ptr; // Ö¸ï¿½ï¿½Ì¬ï¿½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½
 
 int LoadStockData(char *filename)
 {
@@ -21,11 +21,11 @@ void SortRecords(int reco_index[], int n, const char *order_by)
 
 }
 
-int Select(const char *condition, int reco_index[])
+int* Select(const char *condition, int& n)
 {
   //TODO
 
-  return 0;
+  return NULL;
 }
 
 int Aggregate (int reco_index[], int n, const char *cmd, const char *group_by)
