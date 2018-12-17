@@ -1,6 +1,6 @@
 #include "stock.h"
 
-Record *ptr; // ָ��̬�ṹ�������ָ��
+Record *ptr; // 指向动态结构体数组的指针
 
 int LoadStockData(char *filename)
 {
