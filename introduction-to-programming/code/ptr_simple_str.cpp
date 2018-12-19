@@ -10,7 +10,7 @@
 using namespace std;
 #include<string.h>
 
-int main() {
+int main1() {
 	/**
 	 * Example 1: strstr Function
 	 */
@@ -39,12 +39,28 @@ int main() {
 	/**
 	 *Example 3: strtok Function
 	 */
-	char date[] = "2018-12-17";
-	char *token = strtok (date, "-");
-	printf ("%p, %p\n", date, token);
+	const char* split = " ,./";
+	char date[] = "IPhone Eight 64 GB WIFI/4 G, 10 likes";
 	cout << date << endl;
-	token = strtok (NULL, "-");
-	printf ("%p, %p\n", date, token);
+	char *token = strtok (date, split);
+	while (token != NULL) {
+		// operate
+		cout << token << endl;
+		token = strtok (NULL, split);
+	}
+
+
+	//printf ("%p, %p\n", date, token);
+	//cout << date << endl;
+	//token = strtok (NULL, "-");
+	//printf ("%p, %p\n", date, token);
+	//cout << date << "\t" << token << endl;
+
+	//2018-12-17
+	//0x7ffeeefcca15, 0x7ffeeefcca15
+	//2018
+	//0x7ffeeefcca15, 0x7ffeeefcca1a
+	// 2018	12
 
 	return 0;
 }
