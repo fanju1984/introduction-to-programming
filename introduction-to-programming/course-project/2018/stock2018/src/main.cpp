@@ -91,7 +91,7 @@ int main () {
 	 */
 	int reco_index_3[] ={0, 1, 2, 3, 4, 5,
 			6, 7, 8, 41, 42, 43, 44, 45, 46, 47};
-	Aggregate (reco_index_3, 15, "AVG(Open)", "Code");
+	Aggregate (reco_index_3, 16, "AVG(Open)", "Code");
 	// 文件的正确结果应该为：
 	// 000001.SZ 9.32
 	// 000004.SZ 35.40
