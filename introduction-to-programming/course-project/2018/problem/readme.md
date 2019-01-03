@@ -21,8 +21,9 @@ True和False分别用1和0来表示，and、or、not分别用'&','|','!'来表�
 运算符和操作数之间可能有空格，也可能没有。<br>
 样例输入为一个逻辑表达式，输出为其计算结果。 <br>
 
-## 示例程序
-
+## 示例程序（选自同学们提交的程序）
+* [logic_2134.cpp](https://github.com/fanju1984/introduction-to-programming/blob/master/introduction-to-programming/course-project/2018/problem/logic_2134.cpp)
+* [logic_2168.cpp](https://github.com/fanju1984/introduction-to-programming/blob/master/introduction-to-programming/course-project/2018/problem/logic_2168.cpp)
 # 比较表达式 （YOJ 1597）
 小明最近拿到老师交给他的几组股票数据，但是数据中有很多比较任务，因此需要你写一个比较器帮忙比较大小。
 ## 输入格式
@@ -53,4 +54,7 @@ CODE = asYouSaid<br>
 1. 向程序中输入字段时字段名的大小写可能会发生变化。<br>
 2. 1<=n<=10，字段名长度不超过10，数据类型限定为int,double,string（大小写可能发生变化），分别代表整型、浮点型和字符串，比较运算符限定为 >,=,< 三个<br>
 
-## 示例程序
+## 示例程序（同学们提交的程序+原程序代码样例）
+* [cmp_2077.cpp](https://github.com/fanju1984/introduction-to-programming/blob/master/introduction-to-programming/course-project/2018/problem/cmp_2077.cpp)
+* [cmp_2194.cpp](https://github.com/fanju1984/introduction-to-programming/blob/master/introduction-to-programming/course-project/2018/problem/cmp_2194.cpp)
+* [cmp_ref.cpp](https://github.com/fanju1984/introduction-to-programming/blob/master/introduction-to-programming/course-project/2018/problem/cmp_ref.cpp)
